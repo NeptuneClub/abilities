@@ -3,45 +3,57 @@ package org.neptuneclub.abilities.api.nms;
 import org.bukkit.inventory.ItemStack;
 
 public interface NMSHandler {
-    ItemStack grapplingHook();
 
-    ItemStack rageBrick();
+    /**
+     * <h3>Items builder</h1>
+     *
+     * <p> Here, everything will return the value of the specified item converted into an ItemStack, for the versioning
+     * of the different versions 1.8x up to 1.16.5. </p>
+     *
+     * @param name The name of the item
+     * @param lore The lore of the item
+     * @return The value of the constructed item.
+     */
 
-    ItemStack rocketLauncher();
+    ItemStack grapplingHook(String name, String... lore);
 
-    ItemStack swapperAxe();
+    ItemStack rageBrick(String name, String... lore);
 
-    ItemStack timeWarp();
+    ItemStack rocketLauncher(String name, String... lore);
 
-    ItemStack belchBomb();
+    ItemStack swapperAxe(String name, String... lore);
 
-    ItemStack freezeGun();
+    ItemStack timeWarp(String name, String... lore);
 
-    ItemStack explosiveBow();
+    ItemStack belchBomb(String name, String... lore);
 
-    ItemStack antiBuilder();
+    ItemStack freezeGun(String name, String... lore);
 
-    ItemStack teleportationBall();
+    ItemStack explosiveBow(String name, String... lore);
 
-    ItemStack teleportationBow();
+    ItemStack antiBuilder(String name, String... lore);
 
-    ItemStack angelGuardian();
+    ItemStack teleportationBall(String name, String... lore);
 
-    ItemStack tntRain();
+    ItemStack teleportationBow(String name, String... lore);
 
-    ItemStack invisibilityRaid();
+    ItemStack angelGuardian(String name, String... lore);
 
-    ItemStack focusMode();
+    ItemStack tntRain(String name, String... lore);
 
-    ItemStack fakePearl();
+    ItemStack invisibilityRaid(String name, String... lore);
 
-    ItemStack antiFall();
+    ItemStack focusMode(String name, String... lore);
 
-    ItemStack effectDisabler();
+    ItemStack fakePearl(String name, String... lore);
 
-    ItemStack antiTrapBeacon();
+    ItemStack antiFall(String name, String... lore);
 
-    ItemStack loggerBait();
+    ItemStack effectDisabler(String name, String... lore);
 
-    ItemStack explosiveEgg();
+    ItemStack antiTrapBeacon(String name, String... lore);
+
+    ItemStack loggerBait(String name, String... lore);
+
+    ItemStack explosiveEgg(String name, String... lore);
 }
