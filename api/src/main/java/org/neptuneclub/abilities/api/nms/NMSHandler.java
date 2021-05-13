@@ -56,4 +56,6 @@ public interface NMSHandler {
     ItemStack loggerBait(String name, String... lore);
 
     ItemStack explosiveEgg(String name, String... lore);
+
+    ItemStack refillPotion(String name, String... lore);
 }
