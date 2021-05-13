@@ -5,7 +5,6 @@ import org.bukkit.Bukkit;
 import org.bukkit.event.Listener;
 import org.neptuneclub.abilities.Abilities;
 import org.neptuneclub.abilities.api.service.IService;
-import org.neptuneclub.abilities.listener.TestEvent;
 
 import java.util.Arrays;
 
@@ -14,12 +13,8 @@ public class ListenerService implements IService {
 
     private Abilities abilities;
 
-    private TestEvent testEvent;
-
     public void start() {
-        registerListener(
-                testEvent
-        );
+        registerListener();
     }
 
     public void interrupt() {
