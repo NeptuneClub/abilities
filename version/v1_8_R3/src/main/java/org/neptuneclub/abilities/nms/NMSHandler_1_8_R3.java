@@ -23,7 +23,6 @@ public class NMSHandler_1_8_R3 implements NMSHandler {
                 .build();
     }
 
-
     public ItemStack rocketLauncher(String name, String... lore) {
         return ItemBuilder
                 .newBuilder(Material.FIREWORK)
@@ -31,7 +30,6 @@ public class NMSHandler_1_8_R3 implements NMSHandler {
                 .setLore(lore)
                 .build();
     }
-
 
     public ItemStack swapperAxe(String name, String... lore) {
         return ItemBuilder
@@ -41,7 +39,6 @@ public class NMSHandler_1_8_R3 implements NMSHandler {
                 .build();
     }
 
-
     public ItemStack timeWarp(String name, String... lore) {
         return ItemBuilder
                 .newBuilder(Material.PAPER)
@@ -49,7 +46,6 @@ public class NMSHandler_1_8_R3 implements NMSHandler {
                 .setLore(lore)
                 .build();
     }
-
 
     public ItemStack belchBomb(String name, String... lore) {
         return ItemBuilder
@@ -59,7 +55,6 @@ public class NMSHandler_1_8_R3 implements NMSHandler {
                 .build();
     }
 
-
     public ItemStack freezeGun(String name, String... lore) {
         return ItemBuilder
                 .newBuilder(Material.DIAMOND_HOE)
@@ -67,7 +62,6 @@ public class NMSHandler_1_8_R3 implements NMSHandler {
                 .setLore(lore)
                 .build();
     }
-
 
     public ItemStack explosiveBow(String name, String... lore) {
         return ItemBuilder
@@ -77,68 +71,119 @@ public class NMSHandler_1_8_R3 implements NMSHandler {
                 .build();
     }
 
-
     public ItemStack antiBuilder(String name, String... lore) {
-        return null;
+        return ItemBuilder
+                .newBuilder(Material.BONE)
+                .setName(name)
+                .setLore(lore)
+                .build();
     }
-
 
     public ItemStack teleportationBall(String name, String... lore) {
-        return null;
+        return ItemBuilder
+                .newBuilder(Material.SNOW_BALL)
+                .setName(name)
+                .setLore(lore)
+                .build();
     }
-
 
     public ItemStack teleportationBow(String name, String... lore) {
-        return null;
+        return ItemBuilder
+                .newBuilder(Material.BOW)
+                .setName(name)
+                .setLore(lore)
+                .build();
     }
-
 
     public ItemStack angelGuardian(String name, String... lore) {
-        return null;
+        return ItemBuilder
+                .newBuilder(Material.GOLD_RECORD)
+                .setName(name)
+                .setLore(lore)
+                .build();
     }
-
 
     public ItemStack tntRain(String name, String... lore) {
-        return null;
+        return ItemBuilder
+                .newBuilder(Material.TNT)
+                .setName(name)
+                .setLore(lore)
+                .build();
     }
-
 
     public ItemStack invisibilityRaid(String name, String... lore) {
-        return null;
+        return ItemBuilder
+                .newBuilder(Material.INK_SACK)
+                .setName(name)
+                .setLore(lore)
+                .build();
     }
-
 
     public ItemStack focusMode(String name, String... lore) {
-        return null;
+        return ItemBuilder
+                .newBuilder(Material.GOLD_NUGGET)
+                .setName(name)
+                .setLore(lore)
+                .build();
     }
-
 
     public ItemStack fakePearl(String name, String... lore) {
-        return null;
+        return ItemBuilder
+                .newBuilder(Material.ENDER_PEARL)
+                .setName(name)
+                .setLore(lore)
+                .build();
     }
 
-
     public ItemStack antiFall(String name, String... lore) {
-        return null;
+        return ItemBuilder
+                .newBuilder(Material.FEATHER)
+                .setName(name)
+                .setLore(lore)
+                .build();
     }
 
 
     public ItemStack effectDisabler(String name, String... lore) {
-        return null;
+        return ItemBuilder
+                .newBuilder(Material.POTION)
+                .setName(name)
+                .setLore(lore)
+                .build();
     }
 
 
     public ItemStack antiTrapBeacon(String name, String... lore) {
-        return null;
+        return ItemBuilder
+                .newBuilder(Material.BEACON)
+                .setName(name)
+                .setLore(lore)
+                .build();
     }
 
 
     public ItemStack loggerBait(String name, String... lore) {
-        return null;
+        return ItemBuilder
+                .newBuilder(Material.CAULDRON_ITEM)
+                .setName(name)
+                .setLore(lore)
+                .build();
     }
 
 
     public ItemStack explosiveEgg(String name, String... lore) {
-        return null;
+        return ItemBuilder
+                .newBuilder(Material.EGG)
+                .setName(name)
+                .setLore(lore)
+                .build();
+    }
+
+    public ItemStack refillPotion(String name, String... lore) {
+        return ItemBuilder
+                .newBuilder(Material.BREWING_STAND_ITEM)
+                .setName(name)
+                .setLore(lore)
+                .build();
     }
 }
