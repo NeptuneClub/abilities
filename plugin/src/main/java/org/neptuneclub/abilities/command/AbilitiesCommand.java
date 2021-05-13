@@ -9,7 +9,12 @@ import org.bukkit.entity.Player;
 public class AbilitiesCommand implements CommandClass {
 
     @Command(names = {"give", "add"})
-    public boolean giveAbilities(@Sender Player player, String abilitiesName) {
+    public boolean giveAbilities(@Sender Player player, String abilitiesName, int quantity) {
+        return true;
+    }
+
+    @Command(names = {"remove", "rest"})
+    public boolean removeAbilities(@Sender Player player, String abilitiesName, int quantity) {
         return true;
     }
 }
