@@ -1,0 +1,8 @@
+name: Abilities
+version: @version@
+api-version: 1.13
+main: org.neptuneclub.abilities.Abilities
+description: Partner items / Abilities items from well known servers like vipermc.net / hazelmc.com and others!
+authors:
+  - NeptuneClub
+  - vCamilx
