@@ -4,7 +4,7 @@ import org.bukkit.inventory.ItemStack;
 
 public class ItemUtil {
 
-    private final ItemStack itemStack;
+    private final ItemStack ITEM_STACK;
     private double awaitTime;
 
     /**
@@ -13,18 +13,18 @@ public class ItemUtil {
      * <p>Here you will find the way to build the abilities already created before, with the difference that you will
      * be able to get and set the waiting time.</p>
      *
-     * @param itemStack The ItemStack, created earlier.
+     * @param ITEM_STACK The ItemStack, created earlier.
      * @param awaitTime cooldown you want to put on the ability
      * @see org.neptuneclub.abilities.api.nms.NMSHandler
      */
 
-    public ItemUtil(ItemStack itemStack, double awaitTime) {
-        this.itemStack = itemStack;
+    public ItemUtil(ItemStack ITEM_STACK, double awaitTime) {
+        this.ITEM_STACK = ITEM_STACK;
         this.awaitTime = awaitTime;
     }
-
+    
     public ItemStack getItemStack() {
-        return itemStack;
+        return ITEM_STACK;
     }
 
     public double getAwaitTime() {
