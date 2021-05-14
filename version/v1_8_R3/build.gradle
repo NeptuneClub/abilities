@@ -10,12 +10,13 @@ repositories {
     maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
     maven { url = 'https://oss.sonatype.org/content/groups/public/' }
     maven { url = 'https://repo.unnamed.team/repository/unnamed-snapshots/' }
+    maven { url = 'https://repo.unnamed.team/repository/unnamed-releases/' }
 }
 
 dependencies {
-    implementation project(':api')
     compileOnly 'org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT'
     implementation 'team.unnamed.gui:gui-core:2.2.0-SNAPSHOT'
+    implementation project(':api')
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
