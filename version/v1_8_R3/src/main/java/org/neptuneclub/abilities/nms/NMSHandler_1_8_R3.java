@@ -143,7 +143,6 @@ public class NMSHandler_1_8_R3 implements NMSHandler {
                 .build();
     }
 
-
     public ItemStack effectDisabler(String name, String... lore) {
         return ItemBuilder
                 .newBuilder(Material.POTION)
