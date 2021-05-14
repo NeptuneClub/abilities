@@ -4,6 +4,7 @@ import me.yushust.inject.AbstractModule;
 import org.neptuneclub.abilities.api.service.IService;
 import org.neptuneclub.abilities.service.AbilitiesService;
 import org.neptuneclub.abilities.service.sub.ListenerService;
+import org.neptuneclub.abilities.service.sub.LoaderService;
 
 public class ServiceModule extends AbstractModule {
 
@@ -11,5 +12,6 @@ public class ServiceModule extends AbstractModule {
     protected void configure() {
         bind(IService.class).named("abilities-service").to(AbilitiesService.class).singleton();
         bind(IService.class).named("listener-service").to(ListenerService.class).singleton();
+        bind(IService.class).named("loader-service").to(LoaderService.class).singleton();
     }
 }
